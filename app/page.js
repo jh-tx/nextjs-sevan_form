@@ -131,7 +131,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="row">
-                <input type="submit" value="Submit"  onClick={handleAction }></input>
+                <input type="submit" value="Submit"></input>
               </div>
               <div className="row">
                 <h6 className="text-xs text-center text-black">By submitting this form, you consent for us to process your information. The information you provide will be used in accordance with the terms of our <a href = "https://www.sevansolutions.com/privacy-policy/?ref=contentform"><h6 className='background-blue'>Privacy Policy.</h6></a></h6> 
