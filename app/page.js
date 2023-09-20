@@ -3,15 +3,15 @@
 import {create} from './actions'
 
 export default function Page() {
-    /*const handleAction = async (data) => {
+    const handleAction = async (data) => {
       try {
         await create(data)
-        //window.location = 'https://www.sevansolutions.com/'
+        window.location = 'https://www.sevansolutions.com/'
         console.log
       } catch (error) {
         console.error(error.message)
       }
-    }*/
+    }
       return (
         <body>
         <div className="container">
