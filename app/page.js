@@ -7,7 +7,7 @@ export default function Page() {
       try {
         await create(data)
         window.location = 'https://www.sevansolutions.com/'
-        console.log
+
       } catch (error) {
         console.error(error.message)
       }
