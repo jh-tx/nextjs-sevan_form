@@ -91,7 +91,7 @@ export default function Page() {
                       <h6 className='sub-text' id="2d_cad">2D CAD AS-BUILT</h6>
                     </label>
                     <input type="checkbox" name= "revit" id="myCheckbox5"></input>
-                    <label htmlFor="myCheckbox5"><img src="https://sevansolutions.s3.amazonaws.com/360survey/images/Revit_Image.JPG"
+                    <label htmlFor="myCheckbox5"><img src="https://sevansolutions.s3.amazonaws.com/360survey/images/3D_Icon.JPG"
                         id="_3d"></img>
                       <h6 className='sub-text' id="3d_revit">3D REVIT AS-BUILT</h6>
                     </label>
