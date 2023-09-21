@@ -87,7 +87,7 @@ export default function Page() {
                   <div className="col-75">
                     <input type="checkbox" name="cad" id="myCheckbox4"></input>
                     <label htmlFor="myCheckbox4"><img
-                        src="http://sevansolutions.s3.amazonaws.com/360survey/images/2d_FloorPlan_Image.JPG" id="_2d"></img>
+                        src="https://sevansolutions.s3.amazonaws.com/360survey/images/2d_FloorPlan_Image.JPG" id="_2d"></img>
                       <h6 className='sub-text' id="2d_cad">2D CAD AS-BUILT</h6>
                     </label>
                     <input type="checkbox" name= "revit" id="myCheckbox5"></input>
