@@ -97,7 +97,7 @@ export default function Page() {
                     </label>
                     <input type="checkbox" name="tour" id="myCheckbox6"></input>
                     <label htmlFor="myCheckbox6"><img
-                        src="https://sevansolutions.s3.amazonaws.com/360survey/images/3D_Icon.JPG" id="virtual_tour"></img>
+                        src="https://sevansolutions.s3.amazonaws.com/360survey/images/360_Icon.JPG" id="virtual_tour"></img>
                       <h6 className='sub-text' id="vt">360 VIRTUAL TOUR</h6>
                     </label>
                   </div>
