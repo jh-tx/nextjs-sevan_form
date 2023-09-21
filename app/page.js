@@ -78,7 +78,7 @@ export default function Page() {
                 </label>
                 <input type="checkbox" name="building" id="myCheckbox3"></input>
                 <label htmlFor="myCheckbox3"><img
-                    src="https://www.creativefabrica.com/wp-content/uploads/2021/04/17/Completed-Checklist-Icon-Graphics-10959291-1-580x386.jpg"
+                    src="https://sevansolutions.s3.amazonaws.com/360survey/images/Capture_Icon.JPG"
                     id="building"></img>
                   <h6 className='sub-text' id="building_assessment">Facility Conditions Assessments</h6>
                 </label>
@@ -97,7 +97,7 @@ export default function Page() {
                     </label>
                     <input type="checkbox" name="tour" id="myCheckbox6"></input>
                     <label htmlFor="myCheckbox6"><img
-                        src="https://assets.klapty.com/uploads/homesection/thumbnail_1613494775-88627281.png" id="virtual_tour"></img>
+                        src="https://sevansolutions.s3.amazonaws.com/360survey/images/360_Icon.JPG" id="virtual_tour"></img>
                       <h6 className='sub-text' id="vt">360 VIRTUAL TOUR</h6>
                     </label>
                   </div>
