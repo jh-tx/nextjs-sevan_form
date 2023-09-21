@@ -16,6 +16,13 @@ body {
   box-shadow: -12px 12px;
 }
 
+.container-confirmation  {
+  background-color: white;
+  padding: 20px;
+  box-shadow: -12px 12px;
+  margin-top: 50%;
+}
+
 h6 {
   color: rgb(33, 64, 154);
   font-weight: bold;
@@ -23,9 +30,6 @@ h6 {
   margin: 0;
 }
 
-.p_test {
-  font-weight: bold;
-}
 
 input[type="text"],
 textarea,
@@ -158,40 +162,6 @@ label img {
   margin: 25px auto;
 }
 
-.popup {
-  width: 400px;
-  background: #fff;
-  border-radius: 6px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0.1);
-  text-align: center;
-  padding: 0 30px 30px;
-  color: #333;
-  visibility: hidden;
-}
-
-.popup h2 {
-  font-size: 38px;
-  font-weight: 500;
-  margin: 30px 0 10px;
-}
-
-.popup button {
-  width: 100%;
-  margin-top: 50px;
-  padding: 10px 0;
-  background: rgb(88, 186, 91);
-  color: #fff;
-  border: 0;
-  outline: none;
-  font-size: 18px;
-  border-radius: 4px;
-  cursor: pointer;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -207,6 +177,7 @@ label img {
     width: 100%;
     margin-top: 0;
   }
+  
 }
 
 /* Fixes the layout so it doesn't take up the full screen on a computer */
@@ -216,4 +187,5 @@ label img {
     width: 40%;
     margin: 50px auto;
   }
+
 }

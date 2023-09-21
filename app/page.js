@@ -3,15 +3,6 @@
 import {create} from './actions'
 
 export default function Page() {
-    const handleAction = async (data) => {
-      try {
-        await create(data)
-        window.location = 'https://www.sevansolutions.com/'
-
-      } catch (error) {
-        console.error(error.message)
-      }
-    }
       return (
         <body>
         <div className="container">
@@ -114,7 +105,7 @@ export default function Page() {
               </div>
               <div className="row">
                 <div className="col-25">
-                  <label htmlFor="sites">NUMBER OF SITES TO BE SURVEYED:</label>
+                  <label htmlFor="sites">NUMBER OF SITES:</label>
                 </div>
                 <div className="col-75">
                   <input type="number" id="num_sites" name="sites" placeholder="Enter a number.."

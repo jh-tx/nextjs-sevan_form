@@ -1,7 +1,8 @@
 'use server'
 
-import { type } from "os"
+import { revalidatePath } from "next/cache.js"
 import {mailOptions, transporter} from "./nodemailer.js"
+import { redirect } from 'next/navigation'
 
 const CONTACT_MESSAGE_FIELDS = {
     first: "First Name:",
@@ -46,5 +47,6 @@ export async function create(formData) {
     ...generateEmailContent(formData),
     subject: "Survey Service Inquiry",
 })
+redirect('/confirmation');
 }
 
